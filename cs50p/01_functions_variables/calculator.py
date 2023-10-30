@@ -59,6 +59,7 @@ z = round(x + y)
 print(z)
 
 """
+"""
 
 x = float(input("What's x? "))
 y = float(input("What's y? "))
@@ -66,3 +67,56 @@ y = float(input("What's y? "))
 z = round(x + y)
 
 print(f"{z:,}")
+
+"""
+"""
+
+x = float(input("What's x? "))
+y = float(input("What's y? "))
+
+z = x / y
+
+print(z)
+
+"""
+"""
+
+x = float(input("What's x? "))
+y = float(input("What's y? "))
+
+z = round(x / y, 2)
+
+print(z)
+
+"""
+"""
+
+x = float(input("What's x? "))
+y = float(input("What's y? "))
+
+z = x / y
+
+print(f"{z:.2f}")
+
+"""
+"""
+
+def main():
+    x = int(input("What's x? "))
+    print("x squared is", square(x))
+
+def square(n):
+    return n * n
+
+main()
+
+"""
+
+def main():
+    x = int(input("What's x? "))
+    print("x squared is", square(x))
+
+def square(n):
+    return n ** 2
+
+main()
