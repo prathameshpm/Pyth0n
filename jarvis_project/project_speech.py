@@ -1,0 +1,1 @@
+proj_speech = ["Hello Sir", "How, meow meow meow, How how how, meow meow grr woof"]
